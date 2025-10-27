@@ -18,7 +18,7 @@ begin
     buf_full = (fifo_counter == 64);
 
 end
-
+/////////////////////////////////////////////
 always@(posedge clk or posedge rst )
 begin
     if(rst)
